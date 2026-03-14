@@ -1,4 +1,4 @@
-package com.taxguard.domain;
+package com.taxguard.domain.enums;
 
 public enum DeploymentDecision {
     BLOCKED_CONFLICTS,      // Hard block — conflicts must be resolved first
