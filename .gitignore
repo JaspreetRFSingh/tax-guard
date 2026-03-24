@@ -27,4 +27,4 @@ replay_pid*
 *.iml
 target/
 resources/
-
+self-learn/
