@@ -1,16 +1,16 @@
 # TaxGuard — Tax Rule Safe Deployment Platform
 
-> Platform demonstrating the engineering problems faced by Uber's Tax Calculations team at global scale.
+> Platform demonstrating the engineering problems faced by Tax Calculations team at global scale.
 >
-> Built with: Java 17 · Spring Boot 3 · PostgreSQL · Redis · Apache Kafka · Resilience4j · Micrometer
+> Tech Stack: Java 17 · Spring Boot 3 · PostgreSQL · Redis · Apache Kafka · Resilience4j · Micrometer
 
 ---
 
 ## The Problem
 
 Which problem is it trying to solve? 
-Tax rules change frequently — new regulations, court rulings, economic shifts. Finance teams must update tax rules in the system to stay compliant and optimize tax collection. But how can they be sure a new rule won't break existing calculations or cause financial risk?
-At Ola/Uber/Zomato/Swiggy scale — millions of daily transactions across 70+ countries — a single wrong rule deployed globally can trigger millions in penalty exposure within hours:
+Tax rules change frequently! There are new regulations, court rulings, economic shifts. Finance teams must update tax rules in the system to stay compliant and optimize tax collection. But how can they be sure a new rule won't break existing calculations or cause financial risk?
+At Ola/Uber/Zomato/Swiggy scale, millions of daily transactions across 70+ countries — a single wrong rule deployed globally can trigger millions in penalty exposure within hours:
 
 - **Under-collection** → under-remittance to tax authority → fines
 - **Over-collection** → refund liability + regulatory action
